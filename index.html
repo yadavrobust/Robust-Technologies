@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robust Technologies</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!-- CSS External file link -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: lemonchiffon">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/RobustLogo.png" width="160" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="home" class="nav-link active" aria-current="page" href="#home"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About_us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#client">Client</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#feature" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#feature">Web Development</a></li>
+                  <li><a class="dropdown-item" href="#feature">App Development</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#feature">Digital Marketing & SEO</a></li>
+                  <li><a class="dropdown-item" href="#feature">UI/UX Desing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contect us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+      <!-- slider -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Slide_one.gif" class="d-block w-100 img-fluid" alt="slide_one">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Robust Technologies</h5>
+              <p class="text-white fw-bold">Welcome to Robust Technologies IT Solutions, a powerhouse in the realm of website development. We specialize in building cutting-edge, responsive websites that not only captivate audiences but also drive business growth.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Slide_two.jpg" class="d-block w-100 img-fluid" alt="Slide_one">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Web Development</h5>
+              <p class="text-white fw-bold">Welcome to Robust Technologies IT Solutions, a powerhouse in the realm of website development. We specialize in building cutting-edge, responsive websites that not only captivate audiences but also drive business growth.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Slide_three.png" height="480" class="d-block w-100 img-fluid" alt="slide_three">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>App Development</h5>
+              <p class="text-white fw-bold">Welcome to Robust Technologies IT Solutions, where cutting-edge technology meets creative genius. We specialize in crafting bespoke mobile applications that elevate businesses to new heights. With a passion for innovation and a commitment to excellence, we are your go-to partner for turning your app dreams into reality.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Slide_four.png" height="480" class="d-block w-100 img-fluid" alt="slide_four">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>UI/UX Design</h5>
+              <p class="text-white fw-bold">Good UX design is all about putting the user first. Any aspect of a website, app or software that doesn't consider the user's needs is ultimately doomed to fail</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Tagline -->
+      <div class="container-fluid">
+          <div class="row justify-content-evenly">
+            <div class="col-12 text-primary">
+              <h2 class="mt-2" style="font-family: 'Times New Roman', Times, serif;">Robust Technologies IT Solutions:</h2><br>
+              <h3 style="margin: 0px 0px;" class="display-7 text-start fw-lighter text-wrap fst-italic"><p style="text-align: justify;
+                text-justify: inter-word;">Software development is the process of creating, designing, programming, testing, and maintaining software applications and systems. It involves a systematic approach to building software to meet specific needs or solve particular problems. Software development can range from small projects developed by individual developers to large-scale, complex systems created by teams of software engineers.
+              <br><br>HTML/CSS/JavaScript: These are the fundamental building blocks of web development. HTML is used for structuring the content, CSS for styling, and JavaScript for adding interactivity and dynamic behavior to web pages.
+              Server-side programming languages:Common languages for server-side development include JavaScript (Node.js), Python (Django, Flask), Ruby (Ruby on Rails), Java (Spring), and PHP, among others.</p></h3>
+            </div>
+          </div>
+          <!-- services/features -->
+          <div id="feature" class="row justify-content-evenly mt-4" style="background-color: lemonchiffon;">
+            <div class="col-md-3 mt-10 text-center">
+              <h3 style="text-align:left; font-family:'Times New Roman', Times, serif; color:red">Services:</h3>
+              <!-- icon -->
+              <h1><i class="bi bi-code-slash text-primary"></i></h1> 
+              <h5>Website Development</h5>
+              <p style="text-align:justify">We specialize in building cutting-edge, responsive websites that not only captivate audiences but also drive business growth. With a passion for innovation and a team of skilled developers, we are committed to bringing your digital vision to life.</p>
+            </div>
+
+            <div class="col-md-3 mt-5 text-center">
+              <!-- icon -->
+              <h1><i class="bi bi-android2 text-success"></i></h1>
+              <h5>Android Development</h5>
+              <p style="text-align:justify"> Where cutting-edge technology meets creative genius. We specialize in crafting bespoke mobile applications that elevate businesses to new heights. With a passion for innovation and a commitment to excellence.</p>
+            </div>
+            <div class="col-md-3 mt-5 text-center">
+              <!-- icon -->
+              <h1><i class="bi bi-gear-fill text-danger"></i></h1>
+              <h5>IT Services </h5>
+              <p style="text-align:justify">In today's digital age, businesses rely heavily on technology to streamline operations, enhance productivity, and stay competitive in the market. This dependence on technology underscores the critical role of IT services.</p>
+            </div>
+          </div>
+          <!-- line -->
+          <hr>
+          <!-- container-end -->
+      </div>
+      <!-- business Growth -->
+      <div class="row justify-content-evenly pt-3 pb-5">
+        <div class="col-md-5 pt-3">
+          <a href="images/Business.jpg"><img id="Business-img" src="images/Business-growth.jpg" alt="business_Growth" class="img-fluid"></a>
+        </div>
+
+        <div class="col-md-5 pt-4 px-3">
+          <h5 class="mt-4">App Development</h5>
+          <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-success" style="width: 50%">50%</div>
+          </div>
+
+          <h5 class="mt-4">Web Development</h5>
+          <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
+          </div>
+
+          <h5 class="mt-4">UI/UX Desinging</h5>
+          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+          </div>
+
+          <h5 class="mt-4">Digital Marketing & SEO</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+          </div>
+
+          <h5 class="mt-4">Software Development</h5>
+          <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+          </div>
+        </div>
+        <!-- line -->
+        <hr class="mt-5">
+        <!-- business_Growth end -->
+      </div>
+
+      <!-- client section -->
+      <div class="row justify-content-evenly text-center bg-secondary px-3">
+        <div id="client" class="col-md-3 mb-5">
+          <h3 style="text-align:left; font-family:'Times New Roman', Times, serif; color:white;">Client</h3>
+          <div class="card pb-2">
+            <img src="images/client1.png" class="card-img-top img-fluid" alt="luciclient">
+            <div class="card-body">
+              <h5 class="card-title">Luci- App developers</h5>
+              <p class="card-text" style="text-align: justify;">"Client IT Solutions has truly transformed the way we operate our business. From the initial consultation to the ongoing support, their team has been exceptional every step of the way. Their expertise in IT solutions is unmatched, and they have a knack for understanding our unique needs and tailoring their services accordingly.</p>
+              <a href="images/client1.png" class="btn btn-primary btn-outline-success text-white img-fluid">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="client" class="col-md-3 mb-5">
+          <br><br>
+          <div class="card">
+            <img src="images/client2.jpg" class="card-img-top img-fluid" alt="manishclient">
+            <div class="card-body">
+              <h5 class="card-title">Manish- UI/UX Designers</h5>
+              <p class="card-text" style="text-align: justify;">"Client IT Solutions has truly transformed the way we operate our business. From the initial consultation to the ongoing support, their team has been exceptional every step of the way. Their expertise in IT solutions is unmatched, and they have a knack for understanding our unique needs and tailoring their services accordingly..</p>
+              <a href="images/client2.jpg" class="btn btn-primary btn-outline-success text-white">Go somewhere</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-3 mb-5 ">
+          <br><br>
+          <div class="card">
+            <img src="images/client3.png" class="card-img-top img-fluid" alt="sanjayclient">
+            <div class="card-body">
+              <h5 class="card-title">Sanjay-Front End developers</h5>
+              <p class="card-text" style="text-align: justify;">"Client IT Solutions has truly transformed the way we operate our business. From the initial consultation to the ongoing support, their team has been exceptional every step of the way. Their expertise in IT solutions is unmatched, and they have a knack for understanding our unique needs and tailoring their services accordingly.</p>
+              <a href="images/client3.png" class="btn btn-primary btn-outline-success text-white">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-5">
+
+      <!-- contact us and map -->
+      <div class="row justify-content-evenly pt-3 pb-3 px-3" style="background-color: lemonchiffon;">
+        <!-- form -->
+        <div class="col-md-5" id="contactus">
+          <form>
+            <h3 style="font-family: 'Times New Roman', Times, serif; font-weight:bold;"><i class="bi bi-person-lines-fill text-primary"></i> Contact-us:</h3>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your Name...">
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="number" class="form-control" id="phone" maxlength="12" size="10" placeholder="Enter Phone Number...">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your E-mail...">
+              <div id="emailHelp" class="form-text">
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Write Your Massage</label>
+              <textarea style="resize: none;" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input itemid="checkboxContact" type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">If you're looking for a concise and polite message to acknowledge agreement to terms and conditions, We'll never share your details with anyone else. </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-outline-success text-white">Submit</button>
+          </form>
+        </div>
+        <!-- address -->
+        <div class="col-md-5 pt-3">
+          <h3 style="font-family: 'Times New Roman', Times, serif; font-weight:bold;"><i class="bi bi-house-heart-fill text-success"></i> Address:</h3>
+          <p>SANJAY YADAV....Basai, Near Govt. School<br>Dada Bhaiya Society, Sector-9B,<br>Gurugram, Haryana, INDIA-122001<br><i class="bi bi-telephone-fill text-success"></i> Phone: 9793070035<br><i class="bi bi-envelope-at-fill text-success"></i> E-mail: yadavrobust@gmail.com</p>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4325.802530557243!2d76.98227895494179!3d28.460416281347086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17a12bb2df37%3A0x140775356f925996!2sBasai%20Village%2C%20Sector%209B%2C%20Gurugram%2C%20Haryana%20122001!5e0!3m2!1sen!2sin!4v1714495004511!5m2!1sen!2sin" style="width: 100%;" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <hr>
+
+      <!-- faq -->
+      <div class="row justify-content-evenly pt-5 pb-5 px-3">
+        <div class="col-md-10">
+          <h3 class="text-center text-primary">FAQ</h3>
+          <div class="accordion border" id="accordionExample">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  1. What are IT services, and why are they important for businesses?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p style="text-align:justify">IT services encompass a range of offerings aimed at managing, maintaining, and improving a company's technological infrastructure. They are crucial for businesses as they ensure smooth operations, enhance productivity, and enable competitiveness in today's digital landscape.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2. What types of IT services are available?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    IT services encompass various categories, including:
+                    <li>Managed IT services</li>
+                    <li>Cybersecurity solutions</li>
+                    <li>Cybersecurity solutions</li>
+                    <li>Cloud computing services</li>
+                    <li>Network infrastructure management</li>
+                    <li>Data backup and disaster recovery</li>
+                    <li>IT consulting and advisory</li>
+                    <li>Helpdesk support and troubleshooting</li>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+             <!-- acccordian 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3. How can IT services benefit my business?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  IT services offer numerous benefits, such as:
+                  <li> Improved operational efficiency</li>
+                  <li>Enhanced cybersecurity and data protection</li>
+                  <li>Scalability and flexibility to adapt to business needs</li>
+                  <li>Access to specialized expertise and resources</li>
+                  <li>Cost savings through optimized IT infrastructure</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4. Can IT services help my business transition to the cloud?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p style="text-align: justify;">Yes, IT services often include cloud migration and management services to facilitate a smooth transition to cloud-based solutions. This involves assessing your current infrastructure, planning the migration process, selecting the right cloud services, and ensuring data security and compliance.</p>
+                </div>
+              </div>      
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5. How can I measure the effectiveness of IT services for my business?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <li>Key performance indicators (KPIs) for evaluating the effectiveness of IT services may include:</li>
+                  <li>System uptime and availability</li>
+                  <li>Response and resolution times for support tickets</li>
+                  <li>Security incident detection and response times</li>
+                  <li>User satisfaction surveys</li>
+                  <li>Overall cost savings and return on investment (ROI)</li>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <hr class="mt-4">
+      </div>
+
+      <!-- footer section-->
+      <div class="row justify-content-evenly bg-dark text-white opacity-10 px-3">
+        <div class="col-md-3 pt-4">
+          <h3 style="font-family: 'Times New Roman', Times, serif;">Robust Technologies:-</h3>
+          <p style="text-align:justify;">“Robust Technologies IT Solutions” communicates our vision for a connected and efficient digital future. It tells a story of technological synergy, adaptability, precision, and the continuous pursuit of excellence.</p>
+        </div>
+        <!-- Gallery -->
+        <div class="col-md-3 pt-4">
+          <h3 style="font-family: 'Times New Roman', Times, serif;">Gallery:</h3>
+          <a href="images/Slide_one.gif"><img src="images/Slide_one.gif" alt="Gallery-img" height="120" width="350" class="img-fluid"></a>
+        </div>
+        <!-- contact -->
+        <div class="col-md-3 pt-4">
+          <h3 style="font-family: 'Times New Roman', Times, serif;">Contact-us:</h3>
+          <p>BASAI, Near Govt. School.<br> Dada Bhaiya Society, Sector-9B.<br> Gurugram,   (HR.)-INDIA-122001
+          <br><h5><i class="bi bi-whatsapp"></i> +91 9793070035</h5></p>
+        </div>
+      </div>
+      <!-- copyright -->
+      <div class="container-fluid justify-content-evenly">
+        <div class="row text-white text-center bg-secondary">
+          <div class="col-12 mt-1">
+            <h6>Copyright 2024 by Sanjay Yadav &nbsp;<i class="bi bi-heart-fill"></i> All Right Reserved.</h6>
+          </div>
+        </div>
+      </div>
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
