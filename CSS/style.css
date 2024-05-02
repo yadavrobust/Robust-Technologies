@@ -1,0 +1,30 @@
+/* Home CSS */
+.dropdown-menu:hover{
+    background-color:lemonchiffon;
+}
+.dropdown-menu:hover .dropdown-item:hover{
+    background-color:#198754!important;
+    color: white!important;
+}
+.nav-item .nav-link{
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: blue !important;
+    font-weight: bold;
+}
+#home:hover{
+    color: red!important;
+
+}
+.nav-link {
+    color:black !important;
+}
+#checkboxContact:hover
+{
+    background-color: red;
+}
+html, body{
+    width: auto!important;
+    overflow-x: hidden!important;
+}
